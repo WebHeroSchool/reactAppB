@@ -1,19 +1,15 @@
 {
-  "name": "reactappb",
+  "name": "reactapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WebHeroSchool/reactAppB.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hallo": "console.log(''hello'')",
+    "create": "touch index.js",
+    "delete": "rm -rf index.js"
+
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WebHeroSchool/reactAppB/issues"
-  },
-  "homepage": "https://github.com/WebHeroSchool/reactAppB#readme"
+  "license": "ISC"
 }
